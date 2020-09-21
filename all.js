@@ -5,3 +5,10 @@ for (var i = 3; i <= 15; i++) {
     console.log(multi);
   }
 }
+
+// feature2：BMI
+function BMI(height, weight) {
+  let BMI = ( weight / Math.pow((height)/100, 2) ).toFixed(1);
+  return BMI;
+}
+console.log(BMI(178, 70));
